@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="index.html"><h1>Pokédex</h1></a>
+            <div class="controls">
+                <input type="text" id="search-input" placeholder="Buscar Pokémon por nome ou número...">
+                <button id="favorites-toggle-btn">Ver Favoritos</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="status-message" class="hidden"></div>
+        <div id="pokemon-container">
+            <!-- Os cards de Pokémon serão injetados aqui via JS -->
+        </div>
+    </main>
+
+    <footer class="container">
+        <div class="pagination-controls">
+            <button id="prev-btn" disabled>Página Anterior</button>
+            <span id="page-info"></span>
+            <button id="next-btn">Próxima Página</button>
+        </div>
+    </footer>
+
+    <!-- Modal de Detalhes -->
+    <div id="pokemon-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-details">
+                <!-- Detalhes do Pokémon injetados aqui -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
