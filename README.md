@@ -2,7 +2,7 @@
 
 Uma Pokédex moderna e responsiva construída com HTML5, CSS3 e JavaScript puro, consumindo a PokeAPI.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - **Listagem de Pokémon**: Carrega os primeiros 20 Pokémon com imagem, nome e ID.
 - **Paginação**: Navegação completa entre as páginas da API.
@@ -12,14 +12,14 @@ Uma Pokédex moderna e responsiva construída com HTML5, CSS3 e JavaScript puro,
 - **Filtro de Favoritos**: Visualização exclusiva dos Pokémon favoritados.
 - **Design Responsivo**: Layout adaptável para dispositivos móveis e desktop.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - HTML5
 - CSS3 (Custom Properties, Grid, Flexbox)
 - JavaScript Vanilla (ES6+)
 - [PokeAPI](https://pokeapi.co/)
 
-## 🏃 Como Executar
+## Como Executar
 
 1. Clone o repositório ou baixe os arquivos.
 2. Abra o arquivo `index.html` em qualquer navegador moderno.
